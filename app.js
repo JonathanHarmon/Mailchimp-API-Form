@@ -36,7 +36,7 @@ app.post("/", function (req, res) {
 
   const options = {
     method: "POST",
-    auth: "jonathan1:46cead27f548cae855350086fda2baf5-us1",
+    auth: "jonathan1:mailchimpAPIkeywouldgohere",
   };
 
   const request = https.request(url, options, function (response) {
@@ -59,8 +59,4 @@ app.listen(process.env.PORT || 3000, function () {
   console.log("Server is running on port 3000.");
 });
 
-// API Key
-// 46cead27f548cae855350086fda2baf5-us1
 
-// List Id
-// 6f30102af0
